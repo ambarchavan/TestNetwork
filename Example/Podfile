@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ACNetworking_Example' do
+  pod 'ACNetworking', :path => '../'
+
+  target 'ACNetworking_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
