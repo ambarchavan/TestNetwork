@@ -1,0 +1,16 @@
+PODS:
+  - ACNetworking (0.1.0)
+
+DEPENDENCIES:
+  - ACNetworking (from `../`)
+
+EXTERNAL SOURCES:
+  ACNetworking:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ACNetworking: 9abd266bec549eaf542737c784976564d08cdf87
+
+PODFILE CHECKSUM: a7e61627c45c9e409d43fac53d1eef10cd0c0250
+
+COCOAPODS: 1.6.0

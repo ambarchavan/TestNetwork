@@ -1,0 +1,6 @@
+framework module ACNetworking {
+  umbrella header "ACNetworking-umbrella.h"
+
+  export *
+  module * { export * }
+}

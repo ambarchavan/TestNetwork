@@ -1,0 +1,6 @@
+framework module Pods_ACNetworking_Example {
+  umbrella header "Pods-ACNetworking_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
