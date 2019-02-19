@@ -9,7 +9,7 @@ import UIKit
 import Alamofire
 import SwiftyJSON
 
-class ACNetworking: NSObject {
+public class ACNetworking: NSObject {
     public static let sharedInstance = VKNetworking()
     public class func requestGETURL(_ strURL: String, headers : [String : String]?, success:@escaping (JSON) -> Void, failure:@escaping (Error) -> Void) {
         Alamofire.request(strURL, method: .get, parameters: nil, encoding: JSONEncoding.default, headers: headers).responseJSON { (responseObject) -> Void in
