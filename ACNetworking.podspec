@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ACNetworking/Classes/**/*'
+  s.source_files = 'ACNetworking/*'
   s.dependency 'Alamofire'
   s.dependency 'SwiftyJSON'
   # s.resource_bundles = {
