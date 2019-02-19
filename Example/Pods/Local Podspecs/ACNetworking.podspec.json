@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of ACNetworking.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/chavanambar@gmail.com/ACNetworking",
+  "homepage": "https://github.com/ambarchavan/TestNetwork.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,19 @@
     "chavanambar@gmail.com": "chavan.amber@siliconstack.com.au"
   },
   "source": {
-    "git": "https://github.com/chavanambar@gmail.com/ACNetworking.git",
+    "git": "https://github.com/ambarchavan/TestNetwork.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "ACNetworking/Classes/**/*"
+  "source_files": "ACNetworking/Classes/**/*FantasticView/*",
+  "dependencies": {
+    "Alamofire": [
+
+    ],
+    "SwiftyJSON": [
+
+    ]
+  }
 }

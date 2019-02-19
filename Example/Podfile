@@ -3,8 +3,6 @@ use_frameworks!
 target 'ACNetworking_Example' do
   pod 'ACNetworking', :path => '../'
 
-  pod 'Alamofire'
-  pod 'SwiftyJSON
   target 'ACNetworking_Tests' do
     inherit! :search_paths
 
